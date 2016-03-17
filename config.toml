@@ -1,0 +1,16 @@
+baseurl = "http://dbzman-online.eu/"
+languageCode = "en-us"
+title = "Dbzman-Online"
+theme = "dbzman-online"
+
+[[menu.main]]
+    name = "Home"
+    weight = -110
+    identifier = "home"
+    url = "/"
+
+[[menu.main]]
+    name = "Projects"
+    weight = -100
+    identifier = "projects"
+    url = "/project"

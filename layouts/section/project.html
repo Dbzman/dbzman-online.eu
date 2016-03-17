@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+
+
+<div class="row form-group">
+  
+  {{ range first 10 .Data.Pages }}
+  <div class="col-xs-12 col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-image">
+        <img class="panel-image-preview" width="600" height="360" src="/images/project/{{ .Params.image }}">
+      </div>
+      <div class="panel-body">
+        <h4>{{ .Title }}</h4>
+        <p>{{ .Content }}</p>
+      </div>
+      <div class="panel-footer">
+        <div class="col-md-8">
+          <span class="glyphicon glyphicon-calendar"></span>
+          {{ .Params.time }}
+        </div>
+        <div class="col-md-4 text-right">
+          <a href="{{ .Params.website }}"><span class="glyphicon glyphicon-globe"></span></a>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+  
+</div>
+
+
+{{ partial "footer.html" . }}
