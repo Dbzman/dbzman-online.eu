@@ -7,8 +7,26 @@
 // Import Bootstrap for Sass
 @import "bootstrap";
 
+body {
+  margin-top: 70px;
+}
 
+.navbar-brand {
+  background-image: url("/images/header@2x.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 350px 44px;
+  width: 365px;
+  margin-right: 24px;
+}
 
+.navbar-wrapper {
+  @include box-shadow(rgba(#000, 0.2) 0px 0px 15px);
+}
+
+h1 {
+  font-weight: bold;
+}
 
 .project-list {
   .panel-image-preview {
