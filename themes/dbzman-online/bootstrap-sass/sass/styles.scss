@@ -11,6 +11,19 @@ body {
   margin-top: 70px;
 }
 
+.list-item {
+  margin-bottom: 40px;
+}
+
+.blog-preview-image {
+  width: 100%;
+}
+
+.blog-featured-image {
+  background-position: center;
+  background-size: cover;
+}
+
 .navbar {
   .navbar-brand {
     background-image: url("/images/header@2x.png");

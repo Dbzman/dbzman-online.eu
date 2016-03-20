@@ -1,8 +1,35 @@
 {{ partial "header.html" . }}
 
-{{ range first 10 .Data.Pages }}
-  <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+{{ template "_internal/pagination.html" . }}
+{{ range .Paginator.Pages }}
+  <div class="list-item">
+    {{ if isset .Params "list_image" }}
+    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+    <div class="row">
+      <div class="col-sm-4">
+        <a href="{{ .Permalink }}" class="thumbnail">
+          <img{{ with .Params.list_image }} class="blog-preview-image" src="{{ . }}"{{ end }} alt="{{ .Title }}">
+        </a>
+      </div>
+      <div class="col-sm-8">
+        <p>
+          {{ .Summary }}
+        </p>
+      </div>
+    </div>
+    <a href="{{ .RelPermalink }}">Read More…</a>
+
+
+    {{ else }}
+    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+    <p>
+      {{ .Summary }}
+    </p>
+    <a href="{{ .RelPermalink }}">Read More…</a>
+    {{ end }}
+    <hr>
+  </div>
+  
 {{ end }}
-  <p><a href="{{ .Site.BaseURL }}">Home</a></p>
 
 {{ partial "footer.html" . }}

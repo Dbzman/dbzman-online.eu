@@ -1,7 +1,8 @@
 {{ partial "header.html" . }}
 
 <h1>{{ .Title }}</h1>
-<h2>{{ .Date.Format "Mon, 2 January 2006" }}</h2>
+<em>{{ .Date.Format "Mon, 2 January 2006" }}</em>
+<hr>
 {{ .Content }}
 <p><a href="{{ .Site.BaseURL }}">Home</a></p>
 
