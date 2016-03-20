@@ -11,13 +11,19 @@ body {
   margin-top: 70px;
 }
 
-.navbar-brand {
-  background-image: url("/images/header@2x.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 350px 44px;
-  width: 365px;
-  margin-right: 24px;
+.navbar {
+  .navbar-brand {
+    background-image: url("/images/header@2x.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 350px 44px;
+    width: 365px;
+    margin-right: 24px;
+  }
+
+  a {
+    font-weight: bold;
+  }
 }
 
 .navbar-wrapper {
