@@ -4,13 +4,25 @@ title = "Dbzman-Online"
 theme = "dbzman-online"
 
 [[menu.main]]
-    name = "Home"
-    weight = -110
-    identifier = "home"
-    url = "/"
+  name = "Home"
+  weight = -110
+  identifier = "home"
+  url = "/"
 
 [[menu.main]]
-    name = "Projects"
-    weight = -100
-    identifier = "projects"
-    url = "/project"
+  name = "Blog"
+  weight = -109
+  identifier = "blog"
+  url = "/blog"
+
+[[menu.main]]
+  name = "Projects"
+  weight = -100
+  identifier = "projects"
+  url = "/project"
+
+[[menu.main]]
+  name = "Music"
+  weight = -90
+  identifier = "music"
+  url = "https://soundcloud.com/contrastsflow"
