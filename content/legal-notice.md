@@ -5,7 +5,6 @@ menu = "main"
 
 +++
 
-
 # Legal Disclosure
 
 Information in accordance with section 5 TMG
