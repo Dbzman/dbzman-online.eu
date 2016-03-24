@@ -11,6 +11,11 @@ body {
   margin-top: 70px;
 }
 
+.content {
+  max-width: 720px;
+  font-size: 16px;
+}
+
 .list-item {
   margin-bottom: 40px;
 }
@@ -53,15 +58,6 @@ h1 {
     height: auto;
   }
   margin-top: 15px;
-
-  .panel-body {
-    @media (min-width: 768px) {
-      height: 400px;
-    }
-    @media (min-width: 1200px) {
-      height: 300px;
-    }
-  }
 
   .panel {
     @include box-shadow(rgba(black, 0.3) 0 0 8px );

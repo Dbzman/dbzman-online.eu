@@ -4,10 +4,10 @@
 {{ range where .Data.Pages "Title" "Home" }}
   <div class="row">
   {{ if isset .Params "image" }}
-      <div class="col-sm-4">
+      <div class="col-sm-6">
         <img width="345" height="345" src="/images/{{ .Params.image }}" alt="">
       </div>
-      <div class="col-sm-8">
+      <div class="col-sm-6">
         {{ .Content }}
       </div>
   {{ end }}
