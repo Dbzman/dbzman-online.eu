@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+  
+<h1>{{ .Title }}</h1>
+<small>Reading time: {{ .ReadingTime }} minutes</small>
+<p>
+  <a href="/blog">Back to the Blog posts</a>
+</p>
+<hr>
+{{ .Content }}
+
+{{ partial "footer.html" . }}
