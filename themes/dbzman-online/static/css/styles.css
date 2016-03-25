@@ -8825,60 +8825,65 @@ body {
   background-position: center center;
   background-size: 350px 44px;
   width: 365px;
-  margin-right: 24px;
 }
-/* line 42, ../../bootstrap-sass/sass/styles.scss */
+@media (min-width: 992px) {
+  /* line 33, ../../bootstrap-sass/sass/styles.scss */
+  .navbar .navbar-brand {
+    margin-left: 200px !important;
+  }
+}
+/* line 46, ../../bootstrap-sass/sass/styles.scss */
 .navbar a {
   font-weight: bold;
 }
 
-/* line 47, ../../bootstrap-sass/sass/styles.scss */
+/* line 51, ../../bootstrap-sass/sass/styles.scss */
 .navbar-wrapper {
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 15px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 15px;
 }
 
-/* line 51, ../../bootstrap-sass/sass/styles.scss */
+/* line 55, ../../bootstrap-sass/sass/styles.scss */
 h1 {
   font-weight: bold;
 }
 
-/* line 55, ../../bootstrap-sass/sass/styles.scss */
+/* line 59, ../../bootstrap-sass/sass/styles.scss */
 .project-list {
   margin-top: 15px;
 }
-/* line 56, ../../bootstrap-sass/sass/styles.scss */
+/* line 60, ../../bootstrap-sass/sass/styles.scss */
 .project-list .panel-image-preview {
   width: 100%;
   height: auto;
 }
-/* line 62, ../../bootstrap-sass/sass/styles.scss */
+/* line 66, ../../bootstrap-sass/sass/styles.scss */
 .project-list .panel {
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 8px;
   box-shadow: rgba(0, 0, 0, 0.3) 0 0 8px;
 }
-/* line 66, ../../bootstrap-sass/sass/styles.scss */
+/* line 70, ../../bootstrap-sass/sass/styles.scss */
 .project-list .panel-image img.panel-image-preview {
   width: 100%;
   border-radius: 4px 4px 0px 0px;
   -webkit-box-shadow: black 0 10px 20px -15px;
   box-shadow: black 0 10px 20px -15px;
 }
-/* line 72, ../../bootstrap-sass/sass/styles.scss */
+/* line 76, ../../bootstrap-sass/sass/styles.scss */
 .project-list .panel-heading ~ .panel-image img.panel-image-preview {
   border-radius: 0px;
 }
-/* line 76, ../../bootstrap-sass/sass/styles.scss */
+/* line 80, ../../bootstrap-sass/sass/styles.scss */
 .project-list .panel-image ~ .panel-body, .project-list .panel-image.hide-panel-body ~ .panel-body {
   overflow: hidden;
 }
-/* line 79, ../../bootstrap-sass/sass/styles.scss */
+/* line 83, ../../bootstrap-sass/sass/styles.scss */
 .project-list .panel-image ~ .panel-footer a {
   padding: 0px 10px;
   font-size: 1.3em;
   color: #646464;
 }
-/* line 85, ../../bootstrap-sass/sass/styles.scss */
+/* line 89, ../../bootstrap-sass/sass/styles.scss */
 .project-list .panel-image.hide-panel-body ~ .panel-body {
   height: 0px;
   padding: 0px;

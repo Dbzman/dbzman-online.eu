@@ -36,7 +36,11 @@ body {
     background-position: center center;
     background-size: 350px 44px;
     width: 365px;
-    margin-right: 24px;
+
+
+    @media (min-width: $screen-md-min) { 
+      margin-left: 200px!important;
+    }
   }
 
   a {
