@@ -8824,12 +8824,12 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 350px 44px;
-  width: 365px;
+  width: 350px;
 }
 @media (min-width: 992px) {
   /* line 33, ../../bootstrap-sass/sass/styles.scss */
   .navbar .navbar-brand {
-    margin-left: 200px !important;
+    margin-left: 215px !important;
   }
 }
 /* line 46, ../../bootstrap-sass/sass/styles.scss */
