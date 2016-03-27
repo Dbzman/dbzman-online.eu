@@ -16,7 +16,7 @@ Zeilring 10
 ## Contact
 
 Telephone: 06198 32860  
-E-Mail: Contact me  
+E-Mail: mail<span style="display:none">me</span>@dbzman-online.eu  
 Web: http://dbzman-online.eu
 
 Person responsible for content in accordance with 55 Abs. 2 RStV
