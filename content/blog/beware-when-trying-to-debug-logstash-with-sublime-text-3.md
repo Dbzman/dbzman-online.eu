@@ -1,6 +1,9 @@
 +++
 date = "2014-11-12T10:02:00+01:00"
 title = "Beware when trying to debug logstash with Sublime Text 3"
+aliases = [
+  "beware-when-trying-to-debug-logstash-with-sublime-text-3/"
+]
 
 +++
 

@@ -1,6 +1,9 @@
 +++
 date = "2015-03-25T22:41:00+01:00"
 title = "Typo3 Neos: Automated deployment (without Surf)"
+aliases = [
+  "typo3-neos-automated-deployment/"
+]
 
 +++
 

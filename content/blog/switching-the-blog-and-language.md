@@ -1,6 +1,9 @@
 +++
 date = "2013-10-18T16:49:00+01:00"
 title = "Switching the blog and language"
+aliases = [
+  "switching-the-blog-and-language/"
+]
 
 +++
 

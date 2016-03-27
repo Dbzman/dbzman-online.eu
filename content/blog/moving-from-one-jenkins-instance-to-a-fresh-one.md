@@ -2,6 +2,9 @@
 date = "2014-08-11T21:46:00+01:00"
 title = "Moving from one Jenkins instance to a fresh one (preserving configuration)"
 list_image = "/images/blog/2014/08/jenkins_logo.png"
+aliases = [
+  "moving-from-one-jenkins-instance-to-a-fresh-one/"
+]
 
 +++
 

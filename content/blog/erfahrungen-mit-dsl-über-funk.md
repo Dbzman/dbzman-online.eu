@@ -1,6 +1,9 @@
 +++
 date = "2012-02-19T12:00:00+01:00"
 title = "Erfahrungen mit DSL über Funk"
+aliases = [
+  "erfahrungen-mit-dsl-über-funk/"
+]
 
 +++
 

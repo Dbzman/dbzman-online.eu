@@ -1,6 +1,9 @@
 +++
 date = "2013-11-13T07:53:00+01:00"
 title = "Struggling with the wrong Ruby version"
+aliases = [
+  "struggling-with-the-wrong-ruby-version/"
+]
 
 +++
 
