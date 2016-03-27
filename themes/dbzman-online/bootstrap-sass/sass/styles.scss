@@ -11,6 +11,17 @@ body {
   margin-top: 70px;
 }
 
+a {
+  &:hover {
+    text-decoration: none;
+  }
+  transition: color ease 0.3s
+}
+
+.item-date {
+  color: $gray-light;
+}
+
 .content {
   max-width: 720px;
   font-size: 16px;
@@ -50,10 +61,6 @@ body {
 
 .navbar-wrapper {
   @include box-shadow(rgba(#000, 0.2) 0px 0px 15px);
-}
-
-h1 {
-  font-weight: bold;
 }
 
 .project-list {
