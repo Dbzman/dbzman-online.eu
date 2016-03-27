@@ -17,7 +17,7 @@
         </p>
       </div>
     </div>
-    <a href="{{ .RelPermalink }}">Read More…</a>
+    <div class="item-date">Published on {{ .Date.Format "2006-01-02" }}</div>
 
 
     {{ else }}
@@ -25,7 +25,7 @@
     <p>
       {{ .Summary }}
     </p>
-    <a href="{{ .RelPermalink }}">Read More…</a>
+    <div class="item-date">Published on {{ .Date.Format "2006-01-02" }}</div>
     {{ end }}
     <hr>
   </div>
