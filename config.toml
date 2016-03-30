@@ -19,7 +19,7 @@ theme = "dbzman-online"
   name = "Projects"
   weight = -100
   identifier = "projects"
-  url = "/project"
+  url = "/projects"
 
 [[menu.main]]
   name = "Music"
