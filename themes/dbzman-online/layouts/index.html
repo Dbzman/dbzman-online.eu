@@ -8,13 +8,7 @@
         <img width="345" height="345" src="/images/{{ .Params.image }}" alt="">
       </div>
       <div class="col-sm-6">
-        {{ if lt .Date .Now }}
-        before now
-        {{ else }}
-        later than now
-        {{ end }}
         {{ .Content }}
-        }
       </div>
   {{ end }}
   </div>
