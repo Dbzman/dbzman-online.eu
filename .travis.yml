@@ -7,5 +7,4 @@ before_script:
   - bundle install
 
 script:
-  - cd themes/dbzman-online/bootstrap-sass
   - bundle exec compass compile
