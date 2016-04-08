@@ -1,3 +1,5 @@
+language: ruby
+
 before_script:
   - cd themes/dbzman-online/bootstrap-sass
   - bundle install
