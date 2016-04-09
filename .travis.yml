@@ -12,3 +12,4 @@ script:
 
 after_success:
   - "curl --ftp-create-dirs -T ../static/css/styles.css -u $FTP_USER:$FTP_PASSWORD ftp://$FTP_SERVER/themes/dbzman-online/static/css/"
+  - "curl $DEPLOY_TRIGGER_URL"
