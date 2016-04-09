@@ -5,7 +5,7 @@ rvm:
 
 before_script:
   - cd themes/dbzman-online/bootstrap-sass
-  - bundle install
+  - bundle install --path $BUNDLE_PATH
 
 script:
   - bundle exec compass compile
