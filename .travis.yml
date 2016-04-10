@@ -1,11 +1,13 @@
 language: ruby
-cache: bundler
+cache:
+  directories:
+    - $HOME/build/Dbzman/dbzman-online.eu/themes/dbzman-online/bootstrap-sass/vendor/bundle
 rvm:
   - 2.2
 
 before_script:
   - cd themes/dbzman-online/bootstrap-sass
-  - bundle install --path $BUNDLE_PATH
+  - bundle install --path vendor/bundle
 
 script:
   - bundle exec compass compile
