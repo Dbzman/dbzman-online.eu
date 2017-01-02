@@ -7,7 +7,6 @@ image = "home.png"
 # Timo Litzius
 ## is passionate about
 
-- creating stuff
 - making things simpler
 - automating everything
 - improving user experiences
@@ -16,7 +15,7 @@ image = "home.png"
 ## likes
 
 - Scala
-- Ruby
-- iOS
+- K8S
 - CI & CD
 - DevOps
+- Prog Rock
