@@ -1,4 +1,4 @@
-baseurl = "http://dbzman-online.eu/"
+baseurl = "https://dbzman-online.eu/"
 languageCode = "en-us"
 title = "Dbzman-Online"
 theme = "dbzman-online"
