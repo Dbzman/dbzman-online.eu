@@ -14,8 +14,8 @@ image = "home.png"
 
 ## likes
 
-- Scala
-- K8S
+- Golang, Scala
+- Kubernetes
 - CI & CD
 - DevOps
 - Prog Rock
