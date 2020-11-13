@@ -14,7 +14,7 @@ image = "home.png"
 
 ## likes
 
-- Golang, Scala
+- Rust, Scala, Golang
 - Kubernetes
 - CI & CD
 - DevOps
